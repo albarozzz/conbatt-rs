@@ -1,0 +1,8 @@
+[Unit]
+Description=Display controller battery as notifications
+
+[Service]
+ExecStart=/usr/bin/conbatt-rs
+
+[Install]
+WantedBy=default.target
